@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collocations Learning</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Learn English Collocations</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#explanation">Explanation</a></li>
+                <li><a href="#practice">Practice</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="home">
+            <h2>Welcome to the Collocations Learning Platform</h2>
+            <p>This platform will help you understand and practice English collocations effectively.</p>
+        </section>
+        <section id="explanation">
+            <h2>What are Collocations?</h2>
+            <p>Collocations are combinations of words that frequently occur together in English.</p>
+            <p>Examples: "make a decision," "take a break," "do homework," "have a party."</p>
+        </section>
+        <section id="practice">
+            <h2>Practice Collocations</h2>
+            <div id="practice-area">
+                <button onclick="startPractice()">Start Practice</button>
+                <div id="question-area" style="display:none;">
+                    <p id="question"></p>
+                    <div id="options"></div>
+                    <button onclick="checkAnswer()">Submit</button>
+                    <p id="feedback"></p>
+                    <p id="score"></p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Collocations Learning Platform</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
